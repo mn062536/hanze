@@ -1,0 +1,271 @@
+
+/* our offices */
+
+#worldmap {
+    width: 950px;
+    height: 596px;
+    overflow: hidden;
+    position: relative;
+    background: url(../img/worldmap/world-map.png) no-repeat;
+    margin: auto;
+}
+
+#worldmap h1 {
+    width: 945px;
+    line-height: 48px;
+    padding-left: 45px;
+    font-size: 43px;
+    color: #646566;
+    font-weight: normal;
+}
+
+.placename {
+    position: absolute;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.placename_1 {
+    top: 161px;
+    left: 70px;
+}
+
+.placename_2 {
+    top: 300px;
+    left: 105px;
+}
+
+.placename_3 {
+    top: 247px;
+    left: 152px;
+}
+
+.placename_4 {
+    top: 263px;
+    left: 248px;
+}
+
+.placename_5 {
+    top: 220px;
+    left: 292px;
+}
+
+.placename_6 {
+    top: 320px;
+    left: 360px;
+}
+
+.placename_7 {
+    top: 198px;
+    left: 417px;
+}
+
+.placename_8 {
+    top: 410px;
+    left: 410px;
+}
+
+.placename_9 {
+    top: 275px;
+    left: 672px;
+}
+
+.placename_10 {
+    top: 142px;
+    left: 260px;
+}
+.placename_11 {
+    left: 617px;
+    bottom: 400px;
+}
+.placename_12 {
+    left: 700px;
+    bottom: 204px;
+}
+.placeimg {
+    position: absolute;
+    display: none;
+}
+
+.placeimg_1 {
+    top: 112px;
+    left: 25px;
+}
+
+.placeimg_2 {
+    top: 218px;
+    left: 0px;
+}
+
+.placeimg_3 {
+    top: 198px;
+    left: 124px;
+}
+
+.placeimg_4 {
+    top: 198px;
+    left: 210px;
+}
+
+.placeimg_5 {
+    top: 165px;
+    left: 251px;
+}
+
+.placeimg_6 {
+    top: 267px;
+    left: 312px;
+}
+
+.placeimg_7 {
+    top: 168px;
+    left: 280px;
+}
+
+.placeimg_8 {
+    top: 347px;
+    left: 370px;
+}
+
+.placeimg_9 {
+    top: 283px;
+    left: 644px;
+}
+
+.placeimg_10 {
+    top: 95px;
+    left: 114px;
+}
+.placeimg_11 {
+    left: 523px;
+    bottom: 300px;
+}
+.placeimg_12 {
+    left: 670px;
+    bottom: 72px;
+}
+.placetip {
+    width: 220px;
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+
+.placetip ul {
+    width: 100%;
+    border: 1px solid #f06b1a;
+    background-color: #fc8943;
+    padding: 4px 10px;
+    float: left;
+    border-radius: 10px;
+}
+.fixed:before{
+    content: '';
+    width: 11px;
+    height: 2px;
+    position: absolute;
+    bottom: 12px;
+    left: 35px;
+    border-radius: 50%;
+    background-color: #fc8943;
+
+}
+.placetip ul li {
+    width: 95px;
+    min-height: 15px;
+    height: auto!important;
+    height: 15px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    padding: 0 0 5px 0;
+}
+
+.placetip ul li a {
+    color: #fff!important;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.placetiptop {
+    width: 179px;
+    height: 4px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    // background: url(../img/worldmap/worldmaptop.png) no-repeat;
+}
+
+.placetipbottom {
+    width: 179px;
+    height: 13px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    /*background: url(../img/worldmap/worldmapbottom.png) no-repeat;*/
+    background-position: 0px -4px;
+}
+
+.placetip_1 {
+    bottom: 415px;
+    left: 88px;
+    width: 497px;
+}
+.placetip_1 ul li{
+    width: 95px;
+}
+.placetip_2 {
+    bottom: 283px;
+    left: 114px;
+}
+
+.placetip_3 {
+    bottom: 339px;
+    left: 159px;
+    width: 215px;
+}
+
+.placetip_4 {
+    bottom: 324px;
+    left: 251px;
+}
+
+.placetip_5 {
+    bottom: 366px;
+    left: 332px;
+}
+
+.placetip_6 {
+    bottom: 267px;
+    left: 340px;
+}
+
+.placetip_7 {
+    bottom: 390px;
+    left: 410px;
+}
+
+.placetip_8 {
+    bottom: 180px;
+    left: 410px;
+}
+
+.placetip_9 {
+    bottom: 312px;
+    left: 665px;
+}
+
+.placetip_10 {
+    bottom: 440px;
+    left: 255px;
+}
+.placetip_11 {
+    left: 640px;
+    bottom: 427px;
+}
+.placetip_12 {
+    left: 710px;
+    bottom: 228px;
+}
